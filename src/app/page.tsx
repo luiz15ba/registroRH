@@ -172,8 +172,11 @@ const Page = () => {
             </div>
           </>
         }
-
       </div>
+        <div className="text-black absolute bottom-8">
+          <p>Criado por <a href="https://www.instagram.com/luiz15ba/" className="text-blue-600 underline">Luiz Henrique</a></p>
+        </div>
+        <p className="text-black absolute bottom-2">V 1.1.0</p>
     </div>
   )
 
