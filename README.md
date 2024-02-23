@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Registre Horas
 
-First, run the development server:
+Uma aplicação web simples para registrar horas de trabalho.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Descrição
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto é uma aplicação web simples, construída com React.js, para registrar horas de trabalho. O usuário pode registrar a hora de entrada e saída do trabalho e pode ver o histórico de horas registradas. O projeto utiliza a localStorage do navegador para armazenar as informações.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Registrar horas de entrada e saída do trabalho.
+- Visualizar o histórico de horas registradas.
+- Limpar o histórico de horas registradas.
+- Enviar a hora registrada automaticamente para o WhatsApp.
 
-## Learn More
+## Pré-requisitos
 
-To learn more about Next.js, take a look at the following resources:
+1. Node.js instalado na máquina.
+2. NPM ou Yarn instalado na máquina.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instalação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone este repositório.
+2. Abra o terminal na pasta do projeto.
+3. Execute `npm install` ou `yarn install` para instalar as dependências.
+4. Execute `npm start` ou `yarn start` para iniciar o servidor de desenvolvimento.
 
-## Deploy on Vercel
+## Uso
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Acesse a aplicação no navegador.
+2. Clique no botão "REGISTRAR" para registrar a hora de entrada ou saída do trabalho.
+3. Clique no botão "Limpar Historico" para limpar o histórico de horas registradas.
+4. A hora registrada será enviada automaticamente para o WhatsApp.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE.md para mais detalhes.
+
+# Register Hours
+
+A simple web application to register working hours.
+
+## Description
+
+This project is a simple web application, built with React.js, to register working hours. The user can register the time of entry and exit from work and can see the history of registered hours. The project uses the browser's localStorage to store the information.
+
+## Features
+
+- Register entry and exit times from work.
+- View the history of registered hours.
+- Clear the history of registered hours.
+- Send the registered time automatically to WhatsApp.
+
+## Prerequisites
+
+1. Node.js installed on the machine.
+2. NPM or Yarn installed on the machine.
+
+## Installation
+
+1. Clone this repository.
+2. Open the terminal in the project folder.
+3. Run `npm install` or `yarn install` to install dependencies.
+4. Run `npm start` or `yarn start` to start the development server.
+
+## Usage
+
+1. Access the application in the browser.
+2. Click on the "REGISTRAR" button to register the entry or exit time from work.
+3. Click on the "Limpar Historico" button to clear the history of registered hours.
+4. The registered time will be sent automatically to WhatsApp.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
