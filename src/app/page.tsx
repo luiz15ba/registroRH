@@ -9,14 +9,16 @@ const Page = () => {
   const [escolhadeEscala, setEscolhaEscala] = useState(false);
   const [selectedOption, setSelectedOption] = useState('Entrou');
   const [horasTrabalhadas, setHorasTrabalhadas] = useState<string[]>(() => {
-    const storedHorasTrabalhadas = localStorage.getItem('horasTrabalhadas');
-    if (storedHorasTrabalhadas) {
-      return JSON.parse(storedHorasTrabalhadas);
-    } else {
-      return [];
+    if (typeof window !== 'undefined') {
+      const storedHorasTrabalhadas = localStorage.getItem('horasTrabalhadas');
+      if (storedHorasTrabalhadas) {
+        return JSON.parse(storedHorasTrabalhadas);
+      }
     }
+    return [];
   });
   const [limparHistorico, setLimparHistorico] = useState(false);
+
 
   useEffect(() => {
     localStorage.setItem('horasTrabalhadas', JSON.stringify(horasTrabalhadas));
